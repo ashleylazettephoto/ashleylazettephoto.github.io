@@ -15,6 +15,8 @@ h2{
 }
 p{
 	text-align: center;
+	font-size: 17px;
+	font-family: 'Slabo 27px', serif;
 }
 .btn-default {
     color: #777;
@@ -22,6 +24,8 @@ p{
     border-color: #ccc;
 	margin: 0px auto;
 	width: 50%;
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
 }
 .btn {
     display: block;
@@ -44,7 +48,9 @@ p{
 	margin-right:20px;
 }
 #title{
-	margin: auto 0px;
+	display: block;
+	vertical-align: middle;
+	margin-top: 10%;
 }
 .portrait {
     display: inline;
@@ -109,7 +115,7 @@ ul{
 	border-color: #e7e7e7;
 }
 hr {
-    width: 70%;
+    width: 20%;
     border-top: 1px solid #777;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }

@@ -10,7 +10,7 @@ h1{
 h2{
 	color: #777;
 	font-family: 'Slabo 27px', serif;
-	font-size:17px;
+	font-size: 17px;
 	text-align:center;
 }
 body{
@@ -32,14 +32,45 @@ body{
     text-decoration: none;
 	margin-right:20px;
 }
-#message {
-	height: 200px;
+#comment{
+	width: 97%;
+}
+label{
+	font-family: 'Slabo 27px', serif;
+	font-size:17px;
+	font-weight: 200;
 }
 .container-fluid {
 	padding-bottom: 20px;
 }
+select{
+	margin-top: 8px;
+	font-family: 'Slabo 27px', serif;
+	font-size:17px;
+}
 .items{
 	padding: 0;
+}
+.submit{
+	background-color: #eee;
+	font-family: 'Slabo 27px', serif;
+	font-size:17px;
+	float: right;
+	margin-right:3%;
+	width: 120px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #ccc;
+}
+textarea{
+	resize: none;
+}
+.input-group{
+	font-family: 'Slabo 27px', serif;
+	font-size:17px;
+	width: 97%;
+}
+.input-group .form-control {
+    margin-top: 3px;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 80px;
@@ -59,7 +90,7 @@ body{
     margin-left: 40px;
 }
 .input-group {
-    padding-bottom:40px;
+    padding-bottom:20px;
 }
 .navbar-default{
 	font-size:18px;
@@ -136,7 +167,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
-  font-size: 17px;
+  font-size: 19px;
   padding: 10px;
   width: 100%;
 }
