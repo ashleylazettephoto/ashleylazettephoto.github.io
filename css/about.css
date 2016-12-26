@@ -46,9 +46,9 @@ body{
 }
 .navbar-brand{
 	height:133px;
-	background: url('../img/502704776.png');
-	background-size:200px;
-	background-position:center;
+	background: url('../img/PNGs/Logo1.png');
+	background-size:210px;
+	background-position: 32px 15px;
 	background-repeat: no-repeat;
 }
 .row {
