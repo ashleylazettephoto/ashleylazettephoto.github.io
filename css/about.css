@@ -9,18 +9,23 @@ h1{
 }
 h2{
 	color: #777;
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Playfair Display', serif;
 	font-size:17px;
 	text-align:center;
 }
 body{
 	 min-width:650px;
 }
+p{
+	font-family: 'Josefin Sans';
+	font-size:18px;
+	line-height:28px;
+}
 #trademark{
 	color: #777;
 	text-align: left;
 	font-family: 'Playfair Display', serif;
-	font-size:15px;
+	font-size:13px;
 	padding-top:5px;
 	padding-bottom:15px;
 }
@@ -31,6 +36,7 @@ body{
 	font-size:25px;
     text-decoration: none;
 	margin-right:20px;
+	margin-top: 5px;
 }
 .container-fluid {
 	padding-bottom: 20px;
@@ -47,8 +53,8 @@ body{
 .navbar-brand{
 	height:133px;
 	background: url('../img/PNGs/Logo1.png');
-	background-size:210px;
-	background-position: 32px 15px;
+	background-size:240px 90px;
+	background-position: 20px 20px;
 	background-repeat: no-repeat;
 }
 .row {
