@@ -35,7 +35,23 @@ img{
 }
 body{
 	min-width:650px;
- 	background: url('../img/PNGs/Logo2.png');
+}
+.lifestyle{
+ 	background: url('../img/PNGs/Lifestyle.png');
+ 	background-size: 80% 50%;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+.port{
+ 	background: url('../img/PNGs/Port.png');
+ 	background-size: 80% 50%;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
+.wedding{
+ 	background: url('../img/PNGs/Wedding2.png');
  	background-size: 80% 50%;
  	background-position: center;
  	background-repeat: no-repeat;

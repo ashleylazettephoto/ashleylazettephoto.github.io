@@ -51,9 +51,21 @@ p{
 	margin-right:20px;
 	margin-top: 5px;
 }
-.peterson{
-	background: url('../img/PNGs/Logo2.png');
-	background-size: contain;
+.lifestyle{
+	background: url('../img/PNGs/Lifestyle.png');
+    background-size: 85% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.port{
+	background: url('../img/PNGs/Port.png');
+	background-size: 85% 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.wedding{
+	background: url('../img/PNGs/Wedding2.png');
+	background-size: 85% 60%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
