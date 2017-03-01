@@ -1,0 +1,166 @@
+
+h1{
+	color:#777;
+	font-family: 'Dancing Script', cursive;
+	font-weight:400;
+	font-size:50px;
+	/*border-bottom: 2px black solid;*/
+    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+}
+h2{
+	color: #777;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	text-align:center;
+}
+h3{
+	font-family: 'Josefin Sans';
+	font-size:30px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin:40 40px;
+	line-height:40px;
+	margin-right: 70px;
+	margin-left: 70px;
+}
+body{
+	 min-width:650px;
+}
+p{
+	font-family: 'Josefin Sans';
+	font-size:18px;
+	text-align: center;
+	line-height:50px;
+}
+hr {
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 60%;
+}
+.footer{
+	width: 90%;
+}
+.btn-default {
+    color: #777;
+    background-color: #fff;
+    border-color: #ccc;
+    margin: 20px auto;
+    width: 20%;
+    font-size: 20px;
+}
+#trademark{
+	color: #777;
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	font-size:13px;
+	padding-top:5px;
+	padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+	font-family: 'Playfair Display', serif;
+	float:right;
+	font-size:25px;
+    text-decoration: none;
+	margin-right:20px;
+    margin-top: 5px;
+}
+#comment{
+	width: 97%;
+}
+label{
+	font-family: 'Josefin Sans', serif;
+	font-size:17px;
+	font-weight: 200;
+}
+.container-fluid {
+	padding-bottom: 20px;
+}
+select{
+	margin-top: 8px;
+	font-family: 'Josefin Sans', serif;
+	font-size:17px;
+}
+.items{
+	padding: 0;
+}
+.submit{
+	background-color: #eee;
+	font-family: 'Josefin Sans', serif;
+	font-size:17px;
+	float: right;
+	margin-right:3%;
+	width: 120px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #ccc;
+}
+textarea{
+	resize: none;
+}
+.invest{
+	margin-top:8%;
+	padding-top:40px;
+	background: url('../img/PNGs/Wedding2.png');
+	background-position: 50% 0px;
+	background-size:700px;
+	background-repeat: no-repeat;
+}
+.input-group{
+	font-family: 'Josefin Sans', serif;
+	font-size:17px;
+	width: 97%;
+}
+.input-group .form-control {
+    margin-top: 3px;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 5.5vw;
+}
+.nav>li>a {
+    padding: 10px 20px;
+}
+.navbar-brand{
+	height:133px;
+	background: url('../img/PNGs/Logo1.png');
+	background-size:240px 90px;
+	background-position: 20px 20px;
+	background-repeat: no-repeat;
+}
+.row {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.input-group {
+    padding-bottom:20px;
+}
+.navbar-default{
+	font-size:18px;
+	height:150px;
+}
+.navbar-nav{
+	margin-top:55px;
+	float:right;
+	margin-right:5.5vw;
+	border-color: #e7e7e7;
+}
+ul{
+	list-style-type: none;
+	margin: 40px auto 20px auto;
+	padding: 0;
+	text-align:center;
+}
+.nav>li>a {
+    color:#4d4d4d;
+	font-family: 'Playfair Display', serif;
+    text-align: right;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a {
+    background-color: #f8f8f8;
+}
+.navbar-collapse {
+    background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}

@@ -93,7 +93,7 @@ p{
 	padding: 0;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 80px;
+    margin-left: 5.5vw;
 }
 .nav>li>a {
     padding: 10px 20px;
@@ -114,10 +114,13 @@ p{
 	height:150px;
 }
 .navbar-nav{
-	padding-top:55px;
+	margin-top:55px;
 	float:right;
-	padding-right:60px;
+	margin-right:5.5vw;
 	border-color: #e7e7e7;
+}
+.footer{
+	width: 90%;
 }
 ul{
 	list-style-type: none;
