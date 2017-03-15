@@ -18,7 +18,7 @@ h3{
 	font-size:30px;
 	text-align: center;
 	margin-bottom: 20px;
-	margin:40 40px;
+	margin-top:45px;
 	line-height:40px;
 	margin-right: 70px;
 	margin-left: 70px;
@@ -100,8 +100,8 @@ textarea{
 	resize: none;
 }
 .invest{
-	margin-top:8%;
-	padding-top:40px;
+	margin-top:6%;
+	padding-top:5px;
 	background: url('../img/PNGs/Wedding2.png');
 	background-position: 50% 0px;
 	background-size:700px;
