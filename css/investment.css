@@ -167,7 +167,7 @@ textarea{
   		color: #777;
   		text-align: left;
   		font-family: 'Playfair Display', serif;
-  		font-size:2vw;
+  		font-size:3vw;
   		padding-top:5px;
   		padding-bottom:15px;
 	}
@@ -175,7 +175,7 @@ textarea{
     color:#4d4d4d;
   	font-family: 'Playfair Display', serif;
   	float:right;
-  	font-size:3vw;
+  	font-size:4vw;
   	text-decoration: none;
   	margin-right:20px;
  	margin-top: 10px;
@@ -217,7 +217,7 @@ textarea{
 }
 p{
   font-family: 'Josefin Sans';
-  font-size: 2.5vw;
+  font-size: 3vw;
   text-align: center;
   line-height:6vw;
   margin-right: 3vw;
@@ -239,7 +239,7 @@ p{
     border-color: #ccc;
     margin: 20px auto;
     width: 40%;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 .invest{
 	margin-top:6%;

@@ -173,7 +173,7 @@ p{
   color: #777;
   text-align: left;
   font-family: 'Playfair Display', serif;
-  font-size:2vw;
+  font-size:3vw;
   padding-top:5px;
   padding-bottom:15px;
 }
@@ -181,11 +181,15 @@ p{
     color:#4d4d4d;
   font-family: 'Playfair Display', serif;
   float:right;
-  font-size:3vw;
+  font-size:4vw;
   text-decoration: none;
   margin-right:20px;
   margin-top: 10px;
   }
+  .row {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 }
 .footer{
 	width: 90%;
