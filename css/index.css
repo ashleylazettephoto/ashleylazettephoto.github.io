@@ -36,7 +36,7 @@ h2{
 	padding: 0;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	margin-left: 5.5vw;
+	margin-left: 5.4vw;
 }
 .nav>li>a {
     padding: 10px 20px;
@@ -51,12 +51,21 @@ h2{
 .navbar-default{
 	font-size:18px;
 	height:150px;
+  background-color: white;
+  border-color: white;
 }
+
 .navbar-nav{
 	margin-top:55px;
 	float:right;
-	margin-right:5.5vw;
+	margin-right:5.4vw;
+  margin-left:5.4vw;
 	border-color: #e7e7e7;
+}
+@media (max-width: 1150px){
+  .navbar-nav{
+    float:left;
+  }
 }
 ul{
 	list-style-type: none;
@@ -70,12 +79,14 @@ ul{
     text-align: right;
     text-decoration: none;
 }
+.navbar-default .navbar-collapse{
+    border-color: white;
+}
 .navbar-default .navbar-nav>li>a {
-    background-color: #f8f8f8;
+    background-color: white;
 }
 .navbar-collapse {
-    background-color: #f8f8f8;
-	border-color: #e7e7e7;
+    background-color: white;
 }
 hr {
     width: 400px;
