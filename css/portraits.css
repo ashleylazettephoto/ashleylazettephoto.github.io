@@ -32,9 +32,6 @@ h5{
 	margin-right: 70px;
 	margin-left: 70px;
 }
-body{
-	 min-width:650px;
-}
 p{
 	font-family: 'Josefin Sans';
 	font-size:18px;
@@ -123,6 +120,46 @@ p{
   .navbar-nav{
     float:left;
   }
+  .nav>li>a {
+    text-align: left;
+  }
+}
+@media (max-width: 767px){
+  .navbar-brand{
+    background: url(../img/PNGs/Logo1.png);
+    background-size: 85% auto;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  h1{
+  color:#777;
+  font-family: 'Dancing Script', cursive;
+  font-weight:400;
+  font-size:6vw;
+  /*border-bottom: 2px black solid;*/
+    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+  }
+  h2{
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  text-align:center;
+  }
+  .nav>li>a {
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+    .navbar-nav{
+    float:right;
+  }
+  .nav>li>a {
+    text-align:right;
+  }
+  .navbar-default{
+  height:20vw;
+}
 }
 ul{
 	list-style-type: none;
@@ -140,9 +177,6 @@ ul{
     border-color: white;
 }
 .navbar-default .navbar-nav>li>a {
-    background-color: white;
-}
-.navbar-collapse {
     background-color: white;
 }
 .slideshow{
