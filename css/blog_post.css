@@ -15,26 +15,23 @@ h2{
 }
 h3{
 	font-family: 'Playfair Display';
-	font-size:40px;
+	font-size:4vw;
 	text-align: center;
-	margin:40px 40px;
-	line-height:40px;
-	margin-right: 70px;
-	margin-left: 70px;
+	margin:2vw 2vw;
+	line-height:3vw;
+	margin-right: 3vw;
+	margin-left: 3vw;
 }
 p{
 	font-family: 'Josefin Sans';
-	font-size:18px;
+	font-size: 1.5vw;
 	text-align: center;
-	line-height:40px;
-	margin-right: 70px;
-	margin-left: 70px;
+	line-height:3vw;
+	margin-right: 3vw;
+	margin-left: 3vw;
 }
 img{
 	padding: 20px 0;
-}
-body{
-	min-width:650px;
 }
 .lifestyle{
  	background: url('../img/PNGs/Lifestyle.png');
@@ -144,6 +141,7 @@ body{
 }
 @media (max-width: 767px){
   .navbar-brand{
+    height:20vw;
     background: url(../img/PNGs/Logo1.png);
     background-size: 85% auto;
     background-position: 20px 20px;
@@ -177,6 +175,70 @@ body{
   }
   .navbar-default{
   height:20vw;
+  }
+  .row {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  h3{
+  font-family: 'Playfair Display';
+  font-size:7vw;
+  text-align: center;
+  margin:2vw 2vw;
+  line-height:9vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+  .lifestyle{
+  background: url('../img/PNGs/Lifestyle.png');
+  background-size: 80% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.port{
+  background: url('../img/PNGs/port.png');
+  background-size: 80% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.wedding{
+  background: url('../img/PNGs/Wedding2.png');
+  background-size: 80% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p{
+  font-family: 'Josefin Sans';
+  font-size: 3vw;
+  text-align: center;
+  line-height:6vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  }
+  #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:3vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
+}
+.navbar-default .navbar-collapse{
+    border-color: white;
+    background-color: transparent;
 }
 }
 ul{
@@ -193,6 +255,7 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;

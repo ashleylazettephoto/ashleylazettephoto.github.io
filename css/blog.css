@@ -15,7 +15,7 @@ h2{
 }
 p{
 	text-align: center;
-	font-size: 17px;
+	font-size: 1.5vw;
 	font-family: 'Josefin Sans', serif;
 }
 .btn-default {
@@ -24,8 +24,8 @@ p{
     border-color: #ccc;
 	margin: 0px auto;
 	width: 50%;
-	font-size: 20px;
-	font-family: 'Playfair Display', serif;
+	font-size: 2vw;
+  font-family: 'Playfair Display', serif;
 }
 .btn {
     display: block;
@@ -128,7 +128,13 @@ p{
   }
 }
 @media (max-width: 767px){
+  .btn-default {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size:1.5vw;
+  }
   .navbar-brand{
+    height:80px;
     background: url(../img/PNGs/Logo1.png);
     background-size: 85% auto;
     background-position: 20px 20px;
@@ -163,6 +169,23 @@ p{
   .navbar-default{
   height:20vw;
 }
+  #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:3vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
 }
 .footer{
 	width: 90%;
@@ -181,6 +204,7 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;

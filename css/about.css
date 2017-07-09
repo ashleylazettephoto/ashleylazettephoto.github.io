@@ -1,4 +1,13 @@
 
+#media {
+  color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:15;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 5px;
+}
 h1{
 	color:#777;
 	font-family: 'Dancing Script', cursive;
@@ -138,7 +147,38 @@ p{
   .navbar-default{
   height:20vw;
 }
+h4{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
 }
+p{
+  font-family: 'Josefin Sans';
+  font-size:3vw;
+  line-height:6vw;
+}
+#trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:3vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+}
+}
+
 ul{
 	list-style-type: none;
 	margin: 40px auto 20px auto;
@@ -153,6 +193,8 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
+}
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;

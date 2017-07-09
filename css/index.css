@@ -75,6 +75,23 @@ h2{
   }
 }
 @media (max-width: 767px){
+    #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:3vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
   .navbar-brand{
     background: url(../img/PNGs/Logo1.png);
     background-size: 85% auto;
@@ -119,6 +136,7 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;

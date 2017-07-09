@@ -25,9 +25,11 @@ h3{
 }
 p{
 	font-family: 'Josefin Sans';
-	font-size:18px;
+	font-size: 1.5vw;
 	text-align: center;
-	line-height:50px;
+	line-height:3vw;
+	margin-right: 3vw;
+	margin-left: 3vw;
 }
 hr {
     border-top: 1px solid #bbb;
@@ -154,6 +156,30 @@ textarea{
   }
 }
 @media (max-width: 767px){
+	  .navbar-brand{
+    height:20vw;
+    background: url(../img/PNGs/Logo1.png);
+    background-size: 85% auto;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+  }
+	#trademark{
+  		color: #777;
+  		text-align: left;
+  		font-family: 'Playfair Display', serif;
+  		font-size:2vw;
+  		padding-top:5px;
+  		padding-bottom:15px;
+	}
+	#media {
+    color:#4d4d4d;
+  	font-family: 'Playfair Display', serif;
+  	float:right;
+  	font-size:3vw;
+  	text-decoration: none;
+  	margin-right:20px;
+ 	margin-top: 10px;
+  	}
   .navbar-brand{
     background: url(../img/PNGs/Logo1.png);
     background-size: 85% auto;
@@ -189,6 +215,44 @@ textarea{
   .navbar-default{
   height:20vw;
 }
+p{
+  font-family: 'Josefin Sans';
+  font-size: 2.5vw;
+  text-align: center;
+  line-height:6vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  }
+  h3{
+	font-family: 'Josefin Sans';
+	font-size:3vw;
+	text-align: center;
+	margin-bottom: 1vw;
+	margin-top:2vw;
+	line-height:3vw;
+	margin-right: 4vw;
+	margin-left: 4vw;
+}
+.btn-default {
+    color: #777;
+    background-color: #fff;
+    border-color: #ccc;
+    margin: 20px auto;
+    width: 40%;
+    font-size: 2.5vw;
+}
+.invest{
+	margin-top:6%;
+	padding-top:5px;
+	background: url('../img/PNGs/Wedding2.png');
+	background-position: 50% 30%;
+	background-size:50vw;
+	background-repeat: no-repeat;
+}
+.row {
+    margin-right: 20px;
+    margin-left: 20px;
+}
 }
 ul{
 	list-style-type: none;
@@ -204,6 +268,7 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;

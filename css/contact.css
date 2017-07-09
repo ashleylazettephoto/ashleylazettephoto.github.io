@@ -14,12 +14,12 @@ h2{
 	text-align:center;
 }
 p{
-	font-family: 'Josefin Sans';
-	font-size:18px;
-	text-align: center;
-	margin-bottom: 20px;
-	margin:0 40px;
-	line-height:40px;
+  font-family: 'Josefin Sans';
+  font-size: 1.5vw;
+  text-align: center;
+  line-height:3vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
 }
 hr {
     border-top: 1px solid #bbb;
@@ -27,6 +27,9 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 60%;
+}
+form {
+    margin-bottom: 20px;
 }
 #trademark{
 	color: #777;
@@ -130,6 +133,36 @@ textarea{
   }
 }
 @media (max-width: 767px){
+  p{
+  font-family: 'Josefin Sans';
+  font-size: 2.5vw;
+  text-align: center;
+  line-height:6vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  }
+  .row {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+    #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:3vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
   .navbar-brand{
     background: url(../img/PNGs/Logo1.png);
     background-size: 85% auto;
@@ -163,7 +196,7 @@ textarea{
     text-align:right;
   }
   .navbar-default{
-  height:20vw;
+  height:100px;
 }
 }
 ul{
@@ -180,6 +213,7 @@ ul{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
+    background-color: white;
 }
 .navbar-default .navbar-nav>li>a {
     background-color: white;
