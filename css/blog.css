@@ -49,19 +49,19 @@ p{
 	margin-top: 5px;
 }
 .lifestyle{
-	background: url('../img/PNGs/Lifestyle.png');
+	background: url('../img/PNGs/Lifestyle.jpg');
     background-size: 85% 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .port{
-	background: url('../img/PNGs/port.png');
+	background: url('../img/PNGs/port.jpg');
 	background-size: 85% 60%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .wedding{
-	background: url('../img/PNGs/Wedding2.png');
+	background: url('../img/PNGs/Wedding2.jpg');
 	background-size: 85% 60%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -84,7 +84,7 @@ p{
 	padding-bottom: 20px;
 }
 .img-rounded {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .items{
 	padding: 0;
@@ -97,7 +97,7 @@ p{
 }
 .navbar-brand{
 	height:133px;
-	background: url('../img/PNGs/Logo1.png');
+	background: url('../img/PNGs/Logo1.jpg');
 	background-size:240px 90px;
 	background-position: 20px 20px;
 	background-repeat: no-repeat;
@@ -114,6 +114,7 @@ p{
 }
 .navbar-nav{
 	margin-top:55px;
+  margin-bottom: 20px;
 	float:right;
 	margin-right:5.4vw;
   margin-left:5.4vw;
@@ -135,7 +136,7 @@ p{
   }
   .navbar-brand{
     height:80px;
-    background: url(../img/PNGs/Logo1.png);
+    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;

@@ -36,7 +36,7 @@ p{
 	line-height:28px;
 }
 .text{
-	background: url('../img/PNGs/Logo1.png');
+	background: url('../img/PNGs/Logo1.jpg');
 	background-size:90% 65%;
 	background-position: 0 50%;
 	background-repeat: no-repeat;
@@ -67,9 +67,6 @@ p{
 .ash2{
 	margin-top: 15px;
 }
-.container-fluid {
-	padding-bottom: 20px;
-}
 .items{
 	padding: 0;
 }
@@ -81,7 +78,7 @@ p{
 }
 .navbar-brand{
 	height:133px;
-	background: url('../img/PNGs/Logo1.png');
+	background: url('../img/PNGs/Logo1.jpg');
 	background-size:240px 90px;
 	background-position: 20px 20px;
 	background-repeat: no-repeat;
@@ -98,6 +95,7 @@ p{
 }
 .navbar-nav{
 	margin-top:55px;
+  margin-bottom: 20px;
 	float:right;
 	margin-right:5.4vw;
   margin-left:5.4vw;
@@ -112,8 +110,14 @@ p{
   }
 }
 @media (max-width: 767px){
+  .text{
+  background: none;
+  background-size:90% 65%;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
   .navbar-brand{
-    background: url(../img/PNGs/Logo1.png);
+    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;
