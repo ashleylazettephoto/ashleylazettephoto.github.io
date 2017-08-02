@@ -90,7 +90,7 @@ p{
 }
 .navbar-brand{
 	height:133px;
-	background: url('../img/PNGs/Logo1.png');
+	background: url('../img/PNGs/Logo1.jpg');
 	background-size:240px 90px;
 	background-position: 20px 20px;
 	background-repeat: no-repeat;
@@ -163,7 +163,7 @@ p{
   margin-top: 10px;
   }
   .navbar-brand{
-    background: url(../img/PNGs/Logo1.png);
+    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;

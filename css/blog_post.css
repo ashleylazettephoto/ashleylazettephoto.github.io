@@ -34,21 +34,21 @@ img{
 	padding: 20px 0;
 }
 .lifestyle{
- 	background: url('../img/PNGs/Lifestyle.png');
+ 	background: url('../img/PNGs/Lifestyle.jpg');
  	background-size: 80% 50%;
  	background-position: center;
  	background-repeat: no-repeat;
  	background-attachment: fixed;
 }
 .port{
- 	background: url('../img/PNGs/port.png');
+ 	background: url('../img/PNGs/port.jpg');
  	background-size: 80% 50%;
  	background-position: center;
  	background-repeat: no-repeat;
  	background-attachment: fixed;
 }
 .wedding{
- 	background: url('../img/PNGs/Wedding2.png');
+ 	background: url('../img/PNGs/Wedding2.jpg');
  	background-size: 80% 50%;
  	background-position: center;
  	background-repeat: no-repeat;
@@ -109,7 +109,7 @@ img{
 }
 .navbar-brand{
 	height:133px;
-	background: url('../img/PNGs/Logo1.png');
+	background: url('../img/PNGs/Logo1.jpg');
 	background-size:240px 90px;
 	background-position: 20px 20px;
 	background-repeat: no-repeat;
@@ -121,28 +121,46 @@ img{
 .navbar-default{
 	font-size:18px;
 	height:150px;
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
 }
 .navbar-nav{
 	margin-top:55px;
-	float:right;
-	margin-right:5.4vw;
+  margin-bottom: 20px;
+  margin-right:5.4vw;
   margin-left:5.4vw;
+	float:right;
 	border-color: #e7e7e7;
 }
 @media (max-width: 1150px){
+  .navbar-default{
+  margin-bottom: 10px;
+  }
   .navbar-nav{
     float:left;
+    margin-right:14vw;
+    margin-left:14vw;
   }
   .nav>li>a {
     text-align: left;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a {
+    background-color: transparent;
+    font-size:1.6vw;
   }
 }
 @media (max-width: 767px){
+  .navbar-default .navbar-collapse{
+    border-color: white;
+    background-color: white;
+}
+  .navbar-default .navbar-nav>li>a {
+    font-size:3vw;
+  }
   .navbar-brand{
     height:20vw;
-    background: url(../img/PNGs/Logo1.png);
+    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;
@@ -163,18 +181,21 @@ img{
   }
   .nav>li>a {
     font-family: 'Playfair Display', serif;
-    font-size: 3vw;
     text-decoration: none;
     padding: 10px 20px;
+    background-color: white;
   }
     .navbar-nav{
     float:right;
+    margin-right:5.4vw;
+    margin-left:5.4vw;
   }
   .nav>li>a {
     text-align:right;
   }
   .navbar-default{
   height:20vw;
+  margin-bottom: 20px;
   }
   .row {
     margin-right: 20px;
@@ -190,21 +211,21 @@ img{
   margin-left: 3vw;
 }
   .lifestyle{
-  background: url('../img/PNGs/Lifestyle.png');
+  background: url('../img/PNGs/Lifestyle.jpg');
   background-size: 80% 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .port{
-  background: url('../img/PNGs/port.png');
+  background: url('../img/PNGs/port.jpg');
   background-size: 80% 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .wedding{
-  background: url('../img/PNGs/Wedding2.png');
+  background: url('../img/PNGs/Wedding2.jpg');
   background-size: 80% 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +259,6 @@ p{
 }
 .navbar-default .navbar-collapse{
     border-color: white;
-    background-color: transparent;
 }
 }
 ul{
@@ -252,13 +272,6 @@ ul{
 	font-family: 'Playfair Display', serif;
     text-align: right;
     text-decoration: none;
-}
-.navbar-default .navbar-collapse{
-    border-color: white;
-    background-color: white;
-}
-.navbar-default .navbar-nav>li>a {
-    background-color: white;
 }
 hr {
     border-top: 1px solid #bbb;
