@@ -71,49 +71,49 @@
 /* STYLING */
 
 h1{
-	color:#777;
-	font-family: 'Dancing Script', cursive;
-	font-weight:400;
-	font-size:50px;
-	/*border-bottom: 2px black solid;*/
+  color:#777;
+  font-family: 'Dancing Script', cursive;
+  font-weight:400;
+  font-size:50px;
+  /*border-bottom: 2px black solid;*/
     text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
 }
 h2{
-	color: #777;
-	font-family: 'Playfair Display', serif;
-	font-size:17px;
-	text-align:center;
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size:17px;
+  text-align:center;
 }
 .footer{
-	width: 90%;
+  width: 90%;
 }
 strong{
   font-weight: 400;
 }
 #trademark{
-	color: #777;
-	text-align: left;
-	font-family: 'Josefin Sans', serif;
-	font-size:13px;
-	padding-top:5px;
-	padding-bottom:15px;
+  color: #777;
+  text-align: left;
+  font-family: 'Josefin Sans', serif;
+  font-size:13px;
+  padding-top:5px;
+  padding-bottom:15px;
 }
 #media {
     color:#4d4d4d;
-	font-family: 'Josefin Sans', serif;
-	float:right;
-	font-size:25px;
+  font-family: 'Josefin Sans', serif;
+  float:right;
+  font-size:25px;
     text-decoration: none;
-	margin-right:20px;
-	margin-top: 5px;
+  margin-right:20px;
+  margin-top: 5px;
 }
 .items{
-	padding: 0;
+  padding: 0;
 }
 
 /* NAVBAR */
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	margin-left: 5.4vw;
+  margin-left: 5.4vw;
 }
 .nav>li>a {
     color:#4d4d4d;
@@ -123,97 +123,31 @@ strong{
     padding: 10px 20px;
 }
 .navbar-brand{
-	height:133px;
-	background: url('../img/PNGs/Logo1.jpg');
-	background-size:240px 90px;
-	background-position: 20px 20px;
-	background-repeat: no-repeat;
+  height:133px;
+  background: url('../../img/PNGs/Logo1.jpg');
+  background-size:240px 90px;
+  background-position: 20px 20px;
+  background-repeat: no-repeat;
 }
 .navbar-default{
-	font-size:18px;
-	height:150px;
+  font-size:18px;
+  height:150px;
   background-color: white;
   border-color: white;
 }
 
 .navbar-nav{
-	margin-top:55px;
-	float:right;
-	margin-right:5.4vw;
-  margin-left:5.4vw;
-	border-color: #e7e7e7;
-}
-@media (max-width: 1150px){
-  .navbar-nav{
-    float:left;
-  }
-  .nav>li>a {
-    text-align: left;
-  }
-}
-@media (max-width: 767px){
-    #trademark{
-  color: #777;
-  text-align: left;
-  font-family: 'Josefin Sans', serif;
-  font-size:3vw;
-  padding-top:5px;
-  padding-bottom:15px;
-}
-#media {
-    color:#4d4d4d;
-  font-family: 'Josefin Sans', serif;
+  margin-top:55px;
   float:right;
-  font-size:4vw;
-  text-decoration: none;
-  margin-right:20px;
-  margin-top: 10px;
-  }
-  .navbar-brand{
-    background: url(../img/PNGs/Logo1.jpg);
-    background-size: 85% auto;
-    background-position: 20px 20px;
-    background-repeat: no-repeat;
-  }
-  h1{
-  color:#777;
-  font-family: 'Dancing Script', cursive;
-  font-weight:400;
-  font-size:6vw;
-  /*border-bottom: 2px black solid;*/
-    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
-  }
-  h2{
-  color: #777;
-  font-family: 'Playfair Display', serif;
-  font-size:2vw;
-  text-align:center;
-  }
-  .nav>li>a {
-    font-family: 'Playfair Display', serif;
-    font-size: 3vw;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-    .navbar-nav{
-    float:right;
-  }
-  .nav>li>a {
-    text-align:right;
-  }
-  .navbar-default{
-  height:20vw;
-  }
-  .hovereffect img {
-    padding-right: 7vw;
-    padding-left: 7vw;
-  }
+  margin-right:5.4vw;
+  margin-left:5.4vw;
+  border-color: #e7e7e7;
 }
 ul{
-	list-style-type: none;
-	margin: 40px auto 20px auto;
-	padding: 0;
-	text-align:center;
+  list-style-type: none;
+  margin: 40px auto 20px auto;
+  padding: 0;
+  text-align:center;
 }
 .navbar-default .navbar-collapse{
     border-color: white;

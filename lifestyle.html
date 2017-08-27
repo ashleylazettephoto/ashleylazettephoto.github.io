@@ -9,10 +9,20 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Slabo+27px|Dancing+Script|Josefin+Sans|" rel="stylesheet">
-	<link rel="stylesheet" href="css/portraits.css" type="text/css" media="screen">
-	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" href="css/desktop/gallery.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/mobile/gallery.css" type="text/css" media="screen">
 </head>
 <body>
+
+<div id="myModal" class="modal">
+
+  		<!-- The Close Button -->
+  		<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  		<!-- Modal Content (The Image) -->
+  		<img class="modal-content" id="img01">
+</div>
+
 <nav class="navbar navbar-default navbar-static-top">
 	  <div class="container-fluid items">
 	    <div class="navbar-inner">
@@ -40,56 +50,69 @@
 		</div><!--/.navbar-collapse -->
 	  </div><!--/.container-fluid -->
 	</nav>
-<div class="container-fluid">
-	<div class="slideshow">
-	    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
-	        <!-- Carousel indicators -->
-	        <ol class="carousel-indicators">
-	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	            <li data-target="#myCarousel" data-slide-to="1"></li>
-	            <li data-target="#myCarousel" data-slide-to="2"></li>
-				<li data-target="#myCarousel" data-slide-to="3"></li>
-				<li data-target="#myCarousel" data-slide-to="4"></li>
-				<li data-target="#myCarousel" data-slide-to="5"></li>
-				<li data-target="#myCarousel" data-slide-to="6"></li>
-				<li data-target="#myCarousel" data-slide-to="7"></li>
-	        </ol>   
-	        <!-- Wrapper for carousel items -->
-	        <div class="carousel-inner">
-	            <div class="item active">
-	                <img src="./img/Lifestyle/IMG_2775.jpg" alt="Slide 1">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_1906.jpg" alt="Slide 2">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_1487.jpg" alt="Slide 3">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_0568.jpg" alt="Slide 4">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_1454-2.jpg" alt="Slide 5">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_2843.jpg" alt="Slide 6">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_6649.jpg" alt="Slide 7">
-	            </div>
-	            <div class="item">
-	                <img src="./img/Lifestyle/IMG_3265-2.jpg" alt="Slide 8">
-	            </div>
-	        </div>
-	        <!-- Carousel controls -->
-	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-	            <span class="glyphicon glyphicon-chevron-left"></span>
-	        </a>
-	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-	            <span class="glyphicon glyphicon-chevron-right"></span>
-	        </a>
-	    </div>
+<div class="container-fluid gallery">
+	<div id="photos">
+	<div class="row">
+		<!-- The Modal -->
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show show" src="./img/Lifestyle/IMG_0554.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img id="pic" class="img-responsive img-rounded show show" src="./img/Lifestyle/IMG_1454-2.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_1906.jpg" alt="">
+		</div>
 	</div>
+	<div class="row">
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_1893.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_0974.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_6979.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_1007.jpg" alt="">
+		</div>
+	</div>
+		<div class="row">
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_2775.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_6765.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_1487.jpg" alt="">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_1363.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_6877.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_0865.jpg" alt="">
+		</div>
+		<div class="col-sm-3 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_0815.jpg" alt="">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_2021.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_3265-2.jpg" alt="">
+		</div>
+		<div class="col-sm-4 pics">
+			<img class="img-responsive img-rounded show" src="./img/Lifestyle/IMG_6649.jpg" alt="">
+		</div>
 	<hr>
 	<h5> LIFESTYLE</h5>
 		<div class="text">
@@ -117,6 +140,9 @@
 		<a id="media" href="https://www.instagram.com/ashleylazette/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 	</div>
 </body>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/gallery.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

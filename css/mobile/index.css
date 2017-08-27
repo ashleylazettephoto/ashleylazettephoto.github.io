@@ -1,0 +1,65 @@
+@media (max-width: 1150px){
+  .navbar-nav{
+    float:left;
+  }
+  .nav>li>a {
+    text-align: left;
+  }
+}
+@media (max-width: 767px){
+    #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Josefin Sans', serif;
+  font-size:3vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Josefin Sans', serif;
+  float:right;
+  font-size:4vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
+  .navbar-brand{
+    background-size: 85% auto;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  h1{
+  color:#777;
+  font-family: 'Dancing Script', cursive;
+  font-weight:400;
+  font-size:6vw;
+  /*border-bottom: 2px black solid;*/
+    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+  }
+  h2{
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  text-align:center;
+  }
+  .nav>li>a {
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+    .navbar-nav{
+    float:right;
+  }
+  .nav>li>a {
+    text-align:right;
+  }
+  .navbar-default{
+  height:20vw;
+  }
+  .hovereffect img {
+    padding-right: 7vw;
+    padding-left: 7vw;
+  }
+}

@@ -1,0 +1,116 @@
+@media (max-width: 1150px){
+  .navbar-default{
+  margin-bottom: 10px;
+  }
+  .navbar-nav{
+    float:left;
+    margin-right:14vw;
+    margin-left:14vw;
+  }
+  .nav>li>a {
+    text-align: left;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a {
+    background-color: transparent;
+    font-size:1.6vw;
+  }
+}
+@media (max-width: 767px){
+  .lifestyle{
+    background: none
+  }
+  .port{
+    background: none
+  } 
+  .wedding{
+    background: none
+  }
+  .navbar-default .navbar-collapse{
+    border-color: white;
+    background-color: white;
+}
+  .navbar-default .navbar-nav>li>a {
+    font-size:3vw;
+  }
+  .navbar-brand{
+    height:20vw;
+    background-size: 85% auto;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  h1{
+  color:#777;
+  font-family: 'Dancing Script', cursive;
+  font-weight:400;
+  font-size:6vw;
+  /*border-bottom: 2px black solid;*/
+    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+  }
+  h2{
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  text-align:center;
+  }
+  .nav>li>a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+  }
+    .navbar-nav{
+    float:right;
+    margin-right:5.4vw;
+    margin-left:5.4vw;
+  }
+  .nav>li>a {
+    text-align:right;
+  }
+  .navbar-default{
+  height:20vw;
+  margin-bottom: 20px;
+  }
+  .row {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  h3{
+  font-family: 'Playfair Display';
+  font-size:7vw;
+  text-align: center;
+  margin:2vw 2vw;
+  line-height:9vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+p{
+  font-family: 'Josefin Sans';
+  font-size: 3vw;
+  text-align: center;
+  line-height:6vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  }
+  #trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size:3vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Playfair Display', serif;
+  float:right;
+  font-size:4vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+  }
+}
+.navbar-default .navbar-collapse{
+    border-color: white;
+}
+}

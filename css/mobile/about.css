@@ -1,0 +1,72 @@
+@media (max-width: 1150px){
+  .navbar-nav{
+    float:left;
+  }
+  .nav>li>a {
+    text-align: left;
+  }
+}
+@media (max-width: 767px){
+  .text{
+  background: none;
+  background-size:90% 65%;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+  .navbar-brand{
+    background-size: 85% auto;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+  }
+  h2{
+  color: #777;
+  font-family: 'Playfair Display', serif;
+  font-size:2vw;
+  text-align:center;
+  }
+  .nav>li>a {
+    font-family: 'Playfair Display', serif;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+    .navbar-nav{
+    float:right;
+  }
+  .nav>li>a {
+    text-align:right;
+  }
+  .navbar-default{
+  height:20vw;
+}
+h4{
+  color: #777;
+  text-align: left;
+  font-family: 'Josefin Sans', serif;
+  font-size:2vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+p{
+  font-family: 'Josefin Sans';
+  font-size:3vw;
+  line-height:6vw;
+}
+#trademark{
+  color: #777;
+  text-align: left;
+  font-family: 'Josefin Sans', serif;
+  font-size:3vw;
+  padding-top:5px;
+  padding-bottom:15px;
+}
+#media {
+    color:#4d4d4d;
+  font-family: 'Josefin Sans', serif;
+  float:right;
+  font-size:4vw;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top: 10px;
+}
+}
