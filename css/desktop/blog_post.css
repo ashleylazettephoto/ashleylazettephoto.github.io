@@ -33,6 +33,17 @@ p{
 img{
 	padding: 20px 0;
 }
+.link{
+	font-family: 'Josefin Sans';
+	font-size: 1.5vw;
+	text-align: center;
+	line-height:3vw;
+	margin-right: 3vw;
+	margin-left: 3vw;
+}
+.link>a{
+	color: grey;
+}
 .lifestyle{
  	background: url('../../img/PNGs/Lifestyle.jpg');
  	background-size: 80% 50%;
