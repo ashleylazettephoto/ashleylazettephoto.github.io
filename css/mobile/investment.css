@@ -1,4 +1,4 @@
-@media (max-width: 1150px){
+@media (max-width: 1182px){
   .navbar-nav{
     float:left;
   }
@@ -9,7 +9,6 @@
 @media (max-width: 767px){
 	  .navbar-brand{
     height:20vw;
-    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;
@@ -32,14 +31,13 @@
  	margin-top: 10px;
   	}
   .navbar-brand{
-    background: url(../img/PNGs/Logo1.jpg);
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;
   }
   h1{
   color:#777;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dawning of a New Day', cursive;
   font-weight:400;
   font-size:6vw;
   /*border-bottom: 2px black solid;*/

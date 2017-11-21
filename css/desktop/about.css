@@ -9,18 +9,20 @@
   margin-top: 5px;
 }
 h1{
-	color:#777;
-	font-family: 'Dancing Script', cursive;
-	font-weight:400;
-	font-size:50px;
-	/*border-bottom: 2px black solid;*/
-    text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+  color:#777;
+  font-family: 'Dawning of a New Day', cursive;
+  font-size:58px;
+  /*border-bottom: 2px black solid;*/
+  text-shadow: 3px 3px 11px rgba(148, 150, 150, 0.37);
+  margin: 15px;
+  margin-top: 10px;
 }
 h2{
 	color: #777;
 	font-family: 'Playfair Display', serif;
 	font-size:17px;
 	text-align:center;
+	margin: 15px;
 }
 h4{
 	color: #777;
@@ -65,7 +67,7 @@ p{
 	padding: 0;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	margin-left: 5.4vw;
+	margin-left: 2.0vw;
 }
 .nav>li>a {
     padding: 10px 20px;
@@ -74,7 +76,7 @@ p{
 	height:133px;
 	background: url('../../img/PNGs/Logo1.jpg');
 	background-size:240px 90px;
-	background-position: 20px 20px;
+	background-position: 45px 23px;
 	background-repeat: no-repeat;
 }
 .row {

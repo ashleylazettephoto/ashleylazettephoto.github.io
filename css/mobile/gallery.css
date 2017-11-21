@@ -1,4 +1,4 @@
-@media (max-width: 1150px){
+@media (max-width: 1182px){
   .navbar-nav{
     float:left;
   }
@@ -47,7 +47,7 @@ p{
   }
   h1{
   color:#777;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dawning of a New Day', cursive;
   font-weight:400;
   font-size:6vw;
   /*border-bottom: 2px black solid;*/
