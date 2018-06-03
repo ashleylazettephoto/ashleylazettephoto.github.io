@@ -7,7 +7,45 @@
   }
 }
 @media (max-width: 767px){
-    #trademark{
+  .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  cursor: auto;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 5%;
+  opacity: 1;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  margin-bottom: 20px;
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  text-shadow:-1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;
+  opacity: 1;
+  padding: auto;
+  font-size: 5vw;
+  padding-top: 0.6em;
+}
+
+#trademark{
   color: #777;
   text-align: left;
   font-family: 'Josefin Sans', serif;
