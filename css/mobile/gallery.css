@@ -11,24 +11,23 @@ h5{
   font-family: 'Playfair Display';
   font-size:6vw;
   text-align: center;
-  margin:6vw;
+  margin:auto;
   line-height:20px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-bottom:20px;
 }
 p{
   font-family: 'Josefin Sans';
   font-size:4vw;
   text-align: center;
-  margin:0 10vw;
+  margin:0 4vw;
   line-height:8vw;
 }
   #trademark{
   color: #777;
   text-align: left;
   font-family: 'Playfair Display', serif;
-  font-size:3vw;
-  padding-top:5px;
+  font-size:2.5vw;
+  padding-top:10px;
   padding-bottom:15px;
 	}
 #media {
