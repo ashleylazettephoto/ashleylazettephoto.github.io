@@ -7,12 +7,6 @@
   }
 }
 @media (max-width: 767px){
-	  .navbar-brand{
-    height:20vw;
-    background-size: 85% auto;
-    background-position: 20px 20px;
-    background-repeat: no-repeat;
-  }
 	#trademark{
   		color: #777;
   		text-align: left;
@@ -34,6 +28,7 @@
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;
+    height: 133px;
   }
   h1{
   color:#777;
@@ -91,7 +86,6 @@ p{
     font-size: 3vw;
 }
 .invest{
-	margin-top:6%;
 	padding-top:5px;
 	background: url('../img/PNGs/Wedding2.jpg');
 	background-position: 50% 30%;

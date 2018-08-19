@@ -80,6 +80,7 @@ label{
 }
 .container-fluid {
 	padding-bottom: 20px;
+	float: none;
 }
 select{
 	margin-top: 8px;
@@ -103,7 +104,6 @@ textarea{
 	resize: none;
 }
 .invest{
-	margin-top:6%;
 	padding-top:5px;
 	background: url('../../img/PNGs/Wedding2.jpg');
 	background-position: 50% 0px;
@@ -118,9 +118,6 @@ textarea{
 .input-group .form-control {
     margin-top: 3px;
 }
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 5.5vw;
-}
 .nav>li>a {
     padding: 10px 20px;
 }
@@ -132,8 +129,8 @@ textarea{
 	background-repeat: no-repeat;
 }
 .row {
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 3vw;
+    margin-left: 3vw;
 }
 .input-group {
     padding-bottom:20px;
