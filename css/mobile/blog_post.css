@@ -4,8 +4,6 @@
   }
   .navbar-nav{
     float:left;
-    margin-right:14vw;
-    margin-left:14vw;
   }
   .nav>li>a {
     text-align: left;
@@ -34,7 +32,6 @@
     font-size:3vw;
   }
   .navbar-brand{
-    height:20vw;
     background-size: 85% auto;
     background-position: 20px 20px;
     background-repeat: no-repeat;

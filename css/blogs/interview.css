@@ -1,0 +1,23 @@
+#website{
+	display:block;
+	text-align:center;
+	color: #777;
+	font-family: 'Josefin Sans';
+	font-size:2vw;
+}
+#insta{
+	display:block;
+	text-align:center;
+	color: #777;
+	font-family: 'Josefin Sans';
+	font-size:2vw;
+}
+
+@media (max-width: 767px){
+	#website{
+	font-size:3vw;
+}
+#insta{
+	font-size:3vw;
+}
+}

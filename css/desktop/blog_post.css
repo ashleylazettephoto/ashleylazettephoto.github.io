@@ -158,6 +158,13 @@ ul{
     text-align: right;
     text-decoration: none;
 }
+.navbar-default .navbar-collapse{
+    border-color: white;
+    background-color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    background-color: white;
+}
 hr {
     border-top: 1px solid #bbb;
     border-bottom: 1px solid rgba(0,0,0,0.2);
